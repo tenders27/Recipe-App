@@ -13,7 +13,6 @@ function App() {
 
   const deleteRecipe = (indexToDelete) => {
     const newRecipes = recipes.filter((_, index) => index !== indexToDelete);
-    console.log("newRecipes");
     setRecipes([...newRecipes])
   };
 
