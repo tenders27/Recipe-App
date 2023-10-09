@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function RecipeView({ recipe, deleteRecipe, index }) {
+  
   return (
       <tr>
         <td>{(recipe.name)}</td>
